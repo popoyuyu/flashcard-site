@@ -1,5 +1,6 @@
 $(document).ready(function () {
-  $(".card").click(function () {
-    $(".back-flashcard").toggle();
+  $(".all").click(function () {
+    $("#card1").show();
+    $("#card12").toggle();
   });
 });
